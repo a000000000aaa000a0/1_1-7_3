@@ -5,6 +5,7 @@ class M3_1 {
         int b = 34;
         int c;
         
+        
    
         c = a + b; 
         System.out.println("12 + 34 = " + c);
