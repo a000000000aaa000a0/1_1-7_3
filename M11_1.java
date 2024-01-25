@@ -14,6 +14,8 @@ class Circle {
     double calcArea(double radius) {
         return PI * Math.pow(radius, 2);
     }
+
+ 
 }
 
 // Circle2クラスを定義する。
