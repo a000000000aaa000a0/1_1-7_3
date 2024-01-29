@@ -27,7 +27,7 @@ class Student {
     }
 
     public static void main(String[] args) {
-        // 学生オブジェクト作成
+        // Studentクラスのインスタンスを生成する。
         Student student_A = new Student("A", "001", 89, 65, 88);
         Student student_B = new Student("B", "002", 80, 95, 64);
         Student student_C = new Student("C", "003", 70, 80, 98);

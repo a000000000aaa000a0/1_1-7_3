@@ -48,7 +48,7 @@ static class Cook2 extends Person2 {
     }
 }
     
-    class M13_1Main {
+    class M13_1 {
         public static void main(String[] args) {
             // 教師クラス作成
             Teacher2 teacher = new Teacher2("竹井一馬", "教員", "情報処理");

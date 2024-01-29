@@ -49,7 +49,7 @@ class Cook extends Person {
     }
 }
 
-class M12_2Main {
+class M12_2 {
     public static void main(String[] args) {
         // 教師クラス作成
         Teacher teacher = new Teacher("近藤勇", "教員", "Go言語");
