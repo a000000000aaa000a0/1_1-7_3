@@ -9,7 +9,8 @@ class M5_1 {
     
         String input = scan.next();
        
-       
+       // 変数inputに代入されている文字がそれぞれのアルファベットと一致するか確かめる。
+       // == ではなくequalsで比較する。
         if (input.equals("A")) {
             System.out.println("ランクAは評価「優」です");
         } else if (input.equals("B")) {

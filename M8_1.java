@@ -1,6 +1,6 @@
 class M8_1 {
     public static void main(String[] args) {
-        
+        // ０を１０個持った（自動的に０が初期値になる）配列を作り、変数aに代入する。
         int[] a = new int[10];
 
         
