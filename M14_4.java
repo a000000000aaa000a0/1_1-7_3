@@ -11,7 +11,7 @@ class M14_4 {
         
 
         // equalsメソッドでxとyが同じ文字列かどうか比較する。
-        if (x.equals(y)) {
+        if (x.toString().equals(y.toString())) {
             System.out.println("同じ文字列です。");
         } else {
             System.out.println("違う文字列です。");
