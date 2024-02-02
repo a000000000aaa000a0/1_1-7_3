@@ -9,7 +9,7 @@ class Penguin extends Crow {
     
    
     @Override
-    public void displayBirdDetails(int birdNumber) {
+    public void IndicationBirdDetail(int birdNumber) {
         System.out.println("鳥の詳細情報：");
         System.out.println("名前：" + penguin_name);
         System.out.println("生息地：" + penguin_habitat);

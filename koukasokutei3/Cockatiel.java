@@ -9,7 +9,7 @@ class Cockatiel extends Crow {
  
 
     @Override
-    public void displayBirdDetails(int birdNumber) {
+    public void IndicationBirdDetail(int birdNumber) {
         System.out.println("鳥の詳細情報：");
         System.out.println("名前：" + cockatiel_name);
         System.out.println("生息地：" + cockatiel_habitat);

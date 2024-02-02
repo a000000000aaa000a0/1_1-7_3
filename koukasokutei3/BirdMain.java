@@ -24,8 +24,8 @@ class BirdMain {
         // getNumberInputメソッドの戻り値をbirdNumber変数に代入する。
         int birdNumber = BirdNumberInput();
 
-        // 変数birdNumberの値を-1をした数値と同じ場所にある文字列をdisplayBirdDetailsメソッドに渡す。
-        birds[birdNumber - 1].displayBirdDetails(birdNumber);
+        // 変数birdNumberの値を-1をした数値と同じ場所にある文字列をIndicationBirdDetailメソッドに渡す。
+        birds[birdNumber - 1].IndicationBirdDetail(birdNumber);
     }
 
     private static int BirdNumberInput() {

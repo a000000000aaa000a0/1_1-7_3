@@ -7,7 +7,7 @@ class Mameluliha extends Crow{
     String mameluliha_info = "ペットとして飼育されるインコの中では最小。";
     
     @Override
-    public void displayBirdDetails(int birdNumber) {
+    public void IndicationBirdDetail(int birdNumber) {
         System.out.println("鳥の詳細情報：");
         System.out.println("名前： " + mameluliha_name);
         System.out.println("生息地：" + mameluliha_habitat);

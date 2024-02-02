@@ -8,7 +8,7 @@ class Crow implements BirdInterface {
 
    
     @Override
-    public void displayBirdDetails(int birdNumber) {
+    public void IndicationBirdDetail(int birdNumber) {
         System.out.println("鳥の詳細情報：");
         System.out.println("名前： " + crow_name);
         System.out.println("生息地：" + crow_habitat);
