@@ -1,9 +1,13 @@
 abstract class Person2 {
+    // インスタンス変数を定義する。
     private String name;
     private String job;
 
-    // Personクラスのコンストラクトを定義する。
+    // Personクラスのコンストラクタを定義する。
+                  // 個々の部分のことをパラメータという。
     public Person2(String name, String job) {
+        // インスタンス変数とパラメータの名前が同じなため区別するためにthisを使う。
+        // パラメータをインスタンス変数に代入する。
         this.name = name;
         this.job = job;
     }

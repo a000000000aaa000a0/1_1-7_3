@@ -24,26 +24,26 @@ class MoreCalc extends Calculator {
 // メインクラス
 class Main {
     public static void main(String[] args) {
-        // 整数を入力させる
+        // 変数scannerに入力した整数を代入する。
         Scanner scanner = new Scanner(System.in);
         System.out.print("整数を入力してください：");
-        int num1 = scanner.nextInt();
+        int x = scanner.nextInt();
         System.out.print("整数を入力してください：");
-        int num2 = scanner.nextInt();
+        int y = scanner.nextInt();
 
-        // MoreCalcクラスのインスタンスを生成
+        // MoreCalcクラスのインスタンス変数を生成
         MoreCalc moreCalc = new MoreCalc();
 
         // 合計値を計算して表示
-        int sum = moreCalc.calcSum(num1, num2);
-        System.out.println("Sum " + num1 + " and " + num2 + " = " + sum);
+        int sum = moreCalc.calcSum(x, y);
+        System.out.println(x + " and " + y + " = " + sum);
 
         // 平均値を計算して表示
-        int ave = moreCalc.calcAve(num1, num2);
-        System.out.println("Average " + num1 + " and " + num2 + " = " + ave);
+        int ave = moreCalc.calcAve(x, y);
+        System.out.println("Average " + x + " and " + y + " = " + ave);
 
         // 累乗を計算して表示
-        int pow = moreCalc.calcPow(num1, num2);
-        System.out.println("Power " + num1 + " of " + num2 + " = " + pow);
+        int pow = moreCalc.calcPow(x, y);
+        System.out.println("Power " + x + " of " + y + " = " + pow);
     }
 }
