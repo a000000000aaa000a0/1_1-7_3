@@ -4,7 +4,6 @@ package koukasokutei3;
 interface BirdInterface {
     // それぞれの鳥の詳細情報を表示するメソッド。戻り値は返さない。
     void IndicationBirdDetail(int birdNumber);
-   
 }
 
 
